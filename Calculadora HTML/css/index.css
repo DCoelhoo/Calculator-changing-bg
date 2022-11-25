@@ -1,0 +1,72 @@
+body {
+    background: url("../img/bg2.jpg");
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.display{
+    width: 65%;
+    font-size: 22px;
+    text-align: right;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.div{
+    background-color: rgba(70, 70, 70, 0.103);
+    width: 500px;
+    height: auto;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn{
+    margin: 2px;
+    width: 15%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 9px #999;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #d6d6d6;
+}
+
+.btn:active{
+    background-color: #d6d6d6;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#del{
+    width: 32%;
+}
+
+#bgbtn{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.git{
+    border-radius: 22px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px 15px;
+    display: inline-block;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+}
